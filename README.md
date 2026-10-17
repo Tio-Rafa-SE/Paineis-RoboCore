@@ -71,6 +71,10 @@ A RoboCore não publica a pinagem da Wisdom em texto. Esta tabela foi descoberta
 | Painel Wisdom + firmwares v2.1 | testado numa Wisdom real no Raspberry Pi com tela de 7"; o firmware Arduino compila nos cores ESP32 3.3.2 e 2.0.17 |
 | Painel BlackBoard + radar | tela usada numa BlackBoard UNO R3 real no cyberdeck; o firmware compila com o core AVR oficial (10 KB de flash, 629 B de RAM) |
 
+## Licença
+
+[MIT](LICENSE). Pode usar, copiar, modificar e distribuir, inclusive em aulas, oficinas e kits, desde que mantenha o aviso de copyright.
+
 ## Autor
 
 **Tio Rafa** (Rafael de Souza Oliveira): professor, palestrante e desenvolvedor de robótica educacional.

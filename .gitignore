@@ -1,0 +1,12 @@
+# Pinagem salva pela tela (cada placa/computador tem a sua)
+wisdom_pinos.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Arduino IDE / editores
+build/
+.vscode/
+.DS_Store
+Thumbs.db
