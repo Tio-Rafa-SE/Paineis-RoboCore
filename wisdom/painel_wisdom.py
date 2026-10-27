@@ -327,7 +327,7 @@ class PainelWisdom(tk.Tk):
     def _montar_topo(self):
         topo = tk.Frame(self, bg=COR_FUNDO)
         topo.pack(fill="x", padx=self.pad, pady=self.pad)
-        tk.Label(topo, text="PAINEL WISDOM", bg=COR_FUNDO, fg=COR_DESTAQUE,
+        tk.Label(topo, text="PAINEL WISDOM TIO RAFA", bg=COR_FUNDO, fg=COR_DESTAQUE,
                  font=self.F["topo"]).pack(side="left")
         ttk.Button(topo, text="Tela cheia", command=self.alternar_tela_cheia).pack(side="right", padx=(6, 0))
         self.lbl_status = tk.Label(topo, text="desconectado", bg=COR_FUNDO, fg=COR_ERRO,
