@@ -8,7 +8,7 @@
 #  Feche o Monitor Serial da IDE antes de conectar: so um programa usa
 #  a porta por vez.
 #
-#  Tio Rafa - @prof.tiorafa
+#  Tio Rafa - @prof.tiorafa 
 # =====================================================================
 
 import math
@@ -237,9 +237,10 @@ class PainelBlackBoard(tk.Tk):
     def _montar_topo(self):
         topo = tk.Frame(self, bg=COR_FUNDO)
         topo.pack(fill="x", padx=10, pady=10)
-        tk.Label(topo, text="PAINEL BLACKBOARD", bg=COR_FUNDO, fg=COR_DESTAQUE,
+       tk.Label(topo, text="PAINEL BLACKBOARD TIO RAFA", bg=COR_FUNDO, fg=COR_DESTAQUE,
                  font=("Segoe UI", 18, "bold")).pack(side="left")
-        tk.Label(topo, text="  RoboCore BlackBoard UNO R3", bg=COR_FUNDO,
+        tk.Label(topo, text="  Compatível com UNO R3", bg=COR_FUNDO,
+                 fg=COR_SUAVE, font=("Segoe UI", 10)).pack(side="left")
                  fg=COR_SUAVE, font=("Segoe UI", 10)).pack(side="left")
 
         self.lbl_status = tk.Label(topo, text="desconectado", bg=COR_FUNDO,
